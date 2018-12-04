@@ -13,7 +13,7 @@ public class SQLDBCDriverConnectionSimple{
 			Class.forName("com.mysql.jdbc.Driver");
 			String url = "jdbc:mysql://localhost/figures?";
 			String login = "root";
-			String password = "anna20";
+			String password = "root";
 			conn = DriverManager.getConnection(url,login,password);
 		} catch (SQLException | ClassNotFoundException e) {
 			System.out.println(e.getMessage());
